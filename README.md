@@ -4,7 +4,7 @@
 You MUST run this in privileged mode. JPetazzo explains why [in this blog post](https://jpetazzo.github.io/2015/09/03/do-not-use-docker-in-docker-for-ci/).
 
 
-``` docker run --privileged dnd-azurecli ```
+``` docker run --privileged dind-azurecli ```
 
 Test out the azure CLI with a simple ```az``` command: 
 
