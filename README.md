@@ -12,10 +12,13 @@ If you see all of this log info below, then you've stood up the outer Docker con
 
 ### Access the internal docker container
 
-Now open a **new terminal window** to access the *internal* docker container and test out the azure CLI with a simple ```az``` command: 
+Now open a **new terminal window** to access the *internal* docker container.
+
+Run ```Docker ps``` to list out the currently running docker images. Copy the ID# of the image we just ran. Test out the azure CLI with a simple ```az``` command: 
 
 ```docker exec -it <ID# of image> az -h ```
 
+Now you have access to the Azure CLI from within the internal docker container!
 
 ![Docker Readme One](https://www.dropbox.com/s/vjivlu6htl4x8ij/davevoyles-azure-cli-docker-hub-readme.png?raw=1)
 
