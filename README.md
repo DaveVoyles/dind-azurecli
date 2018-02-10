@@ -6,9 +6,9 @@ You MUST run this in privileged mode. JPetazzo explains why [in this blog post](
 
 ``` docker run --privileged dind-azurecli ```
 
-Test out the azure CLI with a simple ```az``` command: 
+Now open a **new terminal window** to access the internal docker container and test out the azure CLI with a simple ```az``` command: 
 
-```docker exec -it <name of image> az -h ```
+```docker exec -it <ID# of image> az -h ```
 
 
 ![https://www.dropbox.com/s/vjivlu6htl4x8ij/davevoyles-azure-cli-docker-hub-readme.png?raw=1](https://www.dropbox.com/s/vjivlu6htl4x8ij/davevoyles-azure-cli-docker-hub-readme.png?raw=1)
