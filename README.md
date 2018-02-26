@@ -1,6 +1,8 @@
 # dind-azurecli
 ### Fork of Docker in Docker (petazzo/dind), with Azure-cli installed.
 
+[Here is a 2 minute YouTube video with instructions on how to set this up.](https://youtu.be/ymnY2vQEiqU)
+
 You MUST run this in privileged mode. JPetazzo explains why [in this blog post](https://jpetazzo.github.io/2015/09/03/do-not-use-docker-in-docker-for-ci/).
 
 
