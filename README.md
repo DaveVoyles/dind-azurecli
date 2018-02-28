@@ -6,7 +6,9 @@
 You MUST run this in privileged mode. JPetazzo explains why [in this blog post](https://jpetazzo.github.io/2015/09/03/do-not-use-docker-in-docker-for-ci/).
 
 
-``` docker run --privileged davevoyles/dind-azurecli ```
+``` docker run -it --privileged -u root -v /var/run/docker.sock:/var/run/docker.sock davevoyles/dind-azurecli sh ```
+
+This will give you a shell inside of the container.
 
 If you see all of this log info below, then you've stood up the outer Docker container.
 
