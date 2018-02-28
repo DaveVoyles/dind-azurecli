@@ -30,7 +30,7 @@ Now you have access to the Azure CLI from within the internal docker container!
 
 As an example, you can run the following command to:
 
-1. Build the react-boilerplate image from the *code4clouds* repository
+1. Build the react-boilerplate image from the *code4clouds* [Azure Container Registry](https://azure.microsoft.com/en-us/services/container-registry/)
 2. Log into an Azure Service Principal. [You can read more about those here.](https://docs.microsoft.com/en-us/cli/azure/create-an-azure-service-principal-azure-cli?view=azure-cli-latest)
 3. Push that image to the Azure Container Registry
 
